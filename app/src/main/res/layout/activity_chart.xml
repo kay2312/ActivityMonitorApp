@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/btnBackChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="НАЗАД"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtFilterLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ДАНІ ЗА ПЕРІОД:"
+            android:textColor="#0D47A1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 ГОДИНА"
+                android:background="@drawable/button_background"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"
+                android:layout_margin="6dp"/>
+
+            <Button
+                android:id="@+id/btnDay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 ДЕНЬ"
+                android:background="@drawable/button_background"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"
+                android:layout_margin="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
