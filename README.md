@@ -38,14 +38,14 @@ The app also provides statistics such as minimum, maximum, average values, and t
 ### Main Screen
 Shows live accelerometer value updates and controls for starting/stopping recording.
 
-![Main Screen](screenshots/main_screen.jpg)
+<img src="screenshots/main_screen.jpg" width="350">
 
 ### Chart Screen
 Displays real-time movement intensity graph using MPAndroidChart.
 
-![Chart Screen](screenshots/chart_screen.jpg)
+<img src="screenshots/chart_screen.jpg" width="350">
 
 ### Statistics Screen
 Shows calculated statistics: minimum, maximum, average, and total count.
 
-![Statistics Screen](screenshots/stats_screen.jpg)
+<img src="screenshots/stats_screen.jpg" width="350">
