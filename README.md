@@ -30,3 +30,22 @@ The app also provides statistics such as minimum, maximum, average values, and t
 
 • utils/
   - CsvExporter (CSV file generation)
+
+---
+
+## Screenshots
+
+### Main Screen
+Shows live accelerometer value updates and controls for starting/stopping recording.
+
+![Main Screen](screenshots/main_screen.png)
+
+### Chart Screen
+Displays real-time movement intensity graph using MPAndroidChart.
+
+![Chart Screen](screenshots/chart_screen.png)
+
+### Statistics Screen
+Shows calculated statistics: minimum, maximum, average, and total count.
+
+![Statistics Screen](screenshots/stats_screen.png)
